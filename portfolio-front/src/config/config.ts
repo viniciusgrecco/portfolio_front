@@ -1,3 +1,3 @@
 export const config = { 
-  apiBaseUrl: "http://localhost:8000" 
+  apiBaseUrl: "https://portfolio-back-gzis.onrender.com" 
 }
