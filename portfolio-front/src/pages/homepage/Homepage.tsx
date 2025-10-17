@@ -1134,16 +1134,6 @@ const NewsButton = styled.button`
   }
 `;
 
-const FormGroup = styled.div`
-  margin-bottom: 1rem;
-`;
-
-const Label = styled.label`
-  display: block;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #374151;
-`;
 
 const WideAlertDialogContent = styled(AlertDialogContent)`
   max-width: 600px;
