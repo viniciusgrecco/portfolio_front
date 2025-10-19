@@ -1,3 +1,3 @@
-export const config = { 
-  apiBaseUrl: "http://3.23.20.109" 
-}
+export const config = {
+  apiBaseUrl: import.meta.env.VITE_API_URL 
+};
