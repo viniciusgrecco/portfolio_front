@@ -51,6 +51,11 @@ type TickerNews = {
 };
 
 export function Homepage() {
+  console.log("API Base URL:", import.meta.env.VITE_API_URL);
+  console.log("API Base URL:", import.meta.env.VITE_API_URL);
+  console.log("API Base URL:", import.meta.env.VITE_API_URL);
+  console.log("API Base URL:", import.meta.env.VITE_API_URL);
+
   const [activeTab, setActiveTab] = useState<"clientes" | "stocks">("clientes");
   const [clientes, setClientes] = useState<Cliente[]>([]);
   const [stocks, setStocks] = useState<Stock[]>([]);
